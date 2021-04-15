@@ -1,0 +1,9 @@
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\bin\Debug\PremierSolutions.exe.config
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\bin\Debug\PremierSolutions.exe
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\bin\Debug\PremierSolutions.pdb
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.csprojAssemblyReference.cache
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Properties.Resources.resources
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.csproj.GenerateResource.cache
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.csproj.CoreCompileInputs.cache
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.exe
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.pdb
