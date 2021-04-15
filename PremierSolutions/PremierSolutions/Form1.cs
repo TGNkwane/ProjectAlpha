@@ -16,5 +16,12 @@ namespace PremierSolutions
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            Form3 technician = new Form3();
+            this.Hide();
+            technician.Show();
+        }
     }
 }

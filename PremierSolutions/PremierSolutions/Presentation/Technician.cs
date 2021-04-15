@@ -16,38 +16,38 @@ namespace PremierSolutions
         {
             InitializeComponent();
         }
-        Employee_DataAccess handler = new Employee_DataAccess();
+        //Employee_DataAccess handler = new Employee_DataAccess();
 
         private void Employee_Click(object sender, EventArgs e)
         {
-            Form2 employee = new Form2();
-            employee.Show();
+            //Form2 employee = new Form2();
+            //employee.Show();
         }
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
         }
 
         private void MainMenu_Click(object sender, EventArgs e)
         {
-            Form1 MainMenu = new Form1();
-            MainMenu.Show();
+            //Form1 MainMenu = new Form1();
+            //MainMenu.Show();
         }
 
         private void InsertT_Click(object sender, EventArgs e)
         {
-            handler.InsertTechnicians(txtability.Text, txtq.Text);
+            //handler.InsertTechnicians(txtability.Text, txtq.Text);
         }
 
         private void UpdateT_Click(object sender, EventArgs e)
         {
-            handler.InsertTechnicians(txtability.Text, txtq.Text);
+            //handler.InsertTechnicians(txtability.Text, txtq.Text);
         }
 
         private void DeleteT_Click(object sender, EventArgs e)
         {
-            handler.DeleteTechnicians(txtability.Text, txtq.Text);
+            //handler.DeleteTechnicians(txtability.Text, txtq.Text);
         }
 
         private void Form3_Load(object sender, EventArgs e)
