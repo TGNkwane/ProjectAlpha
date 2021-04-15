@@ -56,5 +56,12 @@ namespace PremierSolutions
             BackColor = Color.FromArgb(26, 26, 26);
             ForeColor = Color.FromArgb(102, 112, 233);
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            frmServiceRequest sq = new frmServiceRequest();
+            this.Hide();
+            sq.Show();
+        }
     }
 }
