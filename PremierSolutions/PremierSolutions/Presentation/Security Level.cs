@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace PremierSolutions
 {
-    public partial class Service_Level : Form
+    public partial class Security_Level : Form
     {
-        public Service_Level()
+        public Security_Level()
         {
             InitializeComponent();
-        }
-
-        private void btnNextForm_Click(object sender, EventArgs e)
-        {
-            Security_Level security_Level = new Security_Level();
-            this.Hide();
-            security_Level.Show();
         }
     }
 }
