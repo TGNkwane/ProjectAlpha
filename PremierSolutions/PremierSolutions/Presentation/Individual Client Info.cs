@@ -10,18 +10,17 @@ using System.Windows.Forms;
 
 namespace PremierSolutions
 {
-    public partial class Form2 : Form
+    public partial class Individual_Client_Info : Form
     {
-        public Form2()
+        public Individual_Client_Info()
         {
             InitializeComponent();
         }
 
-        private void btnNextForm_Click(object sender, EventArgs e)
+        private void Individual_Client_Info_Load(object sender, EventArgs e)
         {
-            Individual_Client_Info info = new Individual_Client_Info();
-            this.Hide();
-            info.Show();
+            BackColor = Color.FromArgb(26, 26, 26);
+            ForeColor = Color.FromArgb(102, 112, 233);
         }
     }
 }
