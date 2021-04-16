@@ -22,5 +22,12 @@ namespace PremierSolutions
             BackColor = Color.FromArgb(26, 26, 26);
             ForeColor = Color.FromArgb(102, 112, 233);
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            frmIncident incident = new frmIncident();
+            this.Hide();
+            incident.Show();
+        }
     }
 }

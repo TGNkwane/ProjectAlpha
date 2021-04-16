@@ -56,7 +56,7 @@ namespace PremierSolutions
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(39, 59);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(748, 246);
@@ -67,7 +67,7 @@ namespace PremierSolutions
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Location = new System.Drawing.Point(687, 23);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(100, 28);
             this.btnHome.TabIndex = 2;
@@ -79,7 +79,7 @@ namespace PremierSolutions
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.Location = new System.Drawing.Point(353, 23);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(100, 28);
             this.btnRefresh.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace PremierSolutions
             this.btnViewBusinessClients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewBusinessClients.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewBusinessClients.Location = new System.Drawing.Point(479, 23);
-            this.btnViewBusinessClients.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnViewBusinessClients.Margin = new System.Windows.Forms.Padding(4);
             this.btnViewBusinessClients.Name = "btnViewBusinessClients";
             this.btnViewBusinessClients.Size = new System.Drawing.Size(181, 28);
             this.btnViewBusinessClients.TabIndex = 4;
@@ -103,7 +103,7 @@ namespace PremierSolutions
             this.btnAddClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddClient.Location = new System.Drawing.Point(39, 310);
-            this.btnAddClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddClient.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddClient.Name = "btnAddClient";
             this.btnAddClient.Size = new System.Drawing.Size(220, 28);
             this.btnAddClient.TabIndex = 5;
@@ -115,7 +115,7 @@ namespace PremierSolutions
             this.btnUpdateClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateClient.Location = new System.Drawing.Point(300, 310);
-            this.btnUpdateClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdateClient.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdateClient.Name = "btnUpdateClient";
             this.btnUpdateClient.Size = new System.Drawing.Size(220, 28);
             this.btnUpdateClient.TabIndex = 6;
@@ -127,7 +127,7 @@ namespace PremierSolutions
             this.btnDeleteClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteClient.Location = new System.Drawing.Point(567, 310);
-            this.btnDeleteClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDeleteClient.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteClient.Name = "btnDeleteClient";
             this.btnDeleteClient.Size = new System.Drawing.Size(220, 28);
             this.btnDeleteClient.TabIndex = 7;
@@ -142,6 +142,7 @@ namespace PremierSolutions
             this.btnNextForm.TabIndex = 8;
             this.btnNextForm.Text = "NEXT FROM";
             this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // Individual_Client_Info
             // 
@@ -159,7 +160,7 @@ namespace PremierSolutions
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(112)))), ((int)(((byte)(233)))));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Individual_Client_Info";
             this.Text = "Individual_Client_Info";
             this.Load += new System.EventHandler(this.Individual_Client_Info_Load);
