@@ -125,5 +125,12 @@ namespace PremierSolutions
         {
             Application.Exit();
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Form2 job = new Form2();
+            this.Hide();
+            job.Show();
+        }
     }
 }

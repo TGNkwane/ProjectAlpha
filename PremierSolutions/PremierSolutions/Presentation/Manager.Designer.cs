@@ -122,7 +122,7 @@
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Location = new System.Drawing.Point(16, 44);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(665, 311);
             this.panel1.TabIndex = 11;
@@ -131,7 +131,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(4, 4);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(657, 308);
@@ -158,9 +158,9 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.ForeColor = System.Drawing.Color.Fuchsia;
             this.groupBox1.Location = new System.Drawing.Point(33, 319);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(640, 314);
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
@@ -169,7 +169,7 @@
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(128, 174);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(132, 22);
             this.txtAddress.TabIndex = 33;
@@ -187,7 +187,7 @@
             // txtjobdescription
             // 
             this.txtjobdescription.Location = new System.Drawing.Point(563, 106);
-            this.txtjobdescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtjobdescription.Margin = new System.Windows.Forms.Padding(4);
             this.txtjobdescription.Name = "txtjobdescription";
             this.txtjobdescription.Size = new System.Drawing.Size(132, 22);
             this.txtjobdescription.TabIndex = 28;
@@ -195,7 +195,7 @@
             // txtjob
             // 
             this.txtjob.Location = new System.Drawing.Point(563, 57);
-            this.txtjob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtjob.Margin = new System.Windows.Forms.Padding(4);
             this.txtjob.Name = "txtjob";
             this.txtjob.Size = new System.Drawing.Size(132, 22);
             this.txtjob.TabIndex = 27;
@@ -203,7 +203,7 @@
             // txtContact
             // 
             this.txtContact.Location = new System.Drawing.Point(159, 219);
-            this.txtContact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContact.Margin = new System.Windows.Forms.Padding(4);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(132, 22);
             this.txtContact.TabIndex = 26;
@@ -211,7 +211,7 @@
             // txtSurname
             // 
             this.txtSurname.Location = new System.Drawing.Point(128, 121);
-            this.txtSurname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSurname.Margin = new System.Windows.Forms.Padding(4);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(132, 22);
             this.txtSurname.TabIndex = 25;
@@ -219,7 +219,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(128, 80);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(132, 22);
             this.txtName.TabIndex = 24;
@@ -227,7 +227,7 @@
             // txtiD
             // 
             this.txtiD.Location = new System.Drawing.Point(128, 34);
-            this.txtiD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtiD.Margin = new System.Windows.Forms.Padding(4);
             this.txtiD.Name = "txtiD";
             this.txtiD.Size = new System.Drawing.Size(132, 22);
             this.txtiD.TabIndex = 23;
@@ -256,7 +256,7 @@
             // 
             this.Delete.BackColor = System.Drawing.SystemColors.Desktop;
             this.Delete.Location = new System.Drawing.Point(345, 380);
-            this.Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Delete.Margin = new System.Windows.Forms.Padding(4);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(100, 28);
             this.Delete.TabIndex = 21;
@@ -287,7 +287,7 @@
             // 
             this.Update.BackColor = System.Drawing.SystemColors.Desktop;
             this.Update.Location = new System.Drawing.Point(17, 272);
-            this.Update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Update.Margin = new System.Windows.Forms.Padding(4);
             this.Update.Name = "Update";
             this.Update.Size = new System.Drawing.Size(100, 28);
             this.Update.TabIndex = 20;
@@ -308,7 +308,7 @@
             // 
             this.Insert.BackColor = System.Drawing.SystemColors.Desktop;
             this.Insert.Location = new System.Drawing.Point(35, 380);
-            this.Insert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Insert.Margin = new System.Windows.Forms.Padding(4);
             this.Insert.Name = "Insert";
             this.Insert.Size = new System.Drawing.Size(100, 28);
             this.Insert.TabIndex = 19;
@@ -330,7 +330,7 @@
             this.panel2.Controls.Add(this.dataGridView2);
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Location = new System.Drawing.Point(677, 44);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(671, 311);
             this.panel2.TabIndex = 12;
@@ -339,7 +339,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(4, 4);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(655, 308);
@@ -358,9 +358,9 @@
             this.groupBox2.Controls.Add(this.txtdepartmentid);
             this.groupBox2.ForeColor = System.Drawing.Color.Fuchsia;
             this.groupBox2.Location = new System.Drawing.Point(165, 311);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(501, 416);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
@@ -370,7 +370,7 @@
             // 
             this.DeleteDepartment.BackColor = System.Drawing.SystemColors.Desktop;
             this.DeleteDepartment.Location = new System.Drawing.Point(180, 380);
-            this.DeleteDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteDepartment.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteDepartment.Name = "DeleteDepartment";
             this.DeleteDepartment.Size = new System.Drawing.Size(100, 28);
             this.DeleteDepartment.TabIndex = 34;
@@ -381,7 +381,7 @@
             // 
             this.UpdateDepartment.BackColor = System.Drawing.SystemColors.Desktop;
             this.UpdateDepartment.Location = new System.Drawing.Point(25, 380);
-            this.UpdateDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UpdateDepartment.Margin = new System.Windows.Forms.Padding(4);
             this.UpdateDepartment.Name = "UpdateDepartment";
             this.UpdateDepartment.Size = new System.Drawing.Size(100, 28);
             this.UpdateDepartment.TabIndex = 33;
@@ -392,7 +392,7 @@
             // 
             this.InsertDepartment.BackColor = System.Drawing.SystemColors.Desktop;
             this.InsertDepartment.Location = new System.Drawing.Point(28, 327);
-            this.InsertDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.InsertDepartment.Margin = new System.Windows.Forms.Padding(4);
             this.InsertDepartment.Name = "InsertDepartment";
             this.InsertDepartment.Size = new System.Drawing.Size(100, 28);
             this.InsertDepartment.TabIndex = 32;
@@ -422,7 +422,7 @@
             // txtstationnumber
             // 
             this.txtstationnumber.Location = new System.Drawing.Point(16, 279);
-            this.txtstationnumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtstationnumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtstationnumber.Name = "txtstationnumber";
             this.txtstationnumber.Size = new System.Drawing.Size(213, 22);
             this.txtstationnumber.TabIndex = 31;
@@ -440,7 +440,7 @@
             // txtdepartmentname
             // 
             this.txtdepartmentname.Location = new System.Drawing.Point(16, 194);
-            this.txtdepartmentname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdepartmentname.Margin = new System.Windows.Forms.Padding(4);
             this.txtdepartmentname.Name = "txtdepartmentname";
             this.txtdepartmentname.Size = new System.Drawing.Size(213, 22);
             this.txtdepartmentname.TabIndex = 30;
@@ -448,7 +448,7 @@
             // txtdepartmentid
             // 
             this.txtdepartmentid.Location = new System.Drawing.Point(16, 101);
-            this.txtdepartmentid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdepartmentid.Margin = new System.Windows.Forms.Padding(4);
             this.txtdepartmentid.Name = "txtdepartmentid";
             this.txtdepartmentid.Size = new System.Drawing.Size(213, 22);
             this.txtdepartmentid.TabIndex = 29;
@@ -475,9 +475,9 @@
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.ForeColor = System.Drawing.Color.Fuchsia;
             this.groupBox3.Location = new System.Drawing.Point(16, 356);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(729, 308);
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
@@ -487,7 +487,7 @@
             // 
             this.DeleteEm.BackColor = System.Drawing.SystemColors.Desktop;
             this.DeleteEm.Location = new System.Drawing.Point(159, 265);
-            this.DeleteEm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteEm.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteEm.Name = "DeleteEm";
             this.DeleteEm.Size = new System.Drawing.Size(115, 39);
             this.DeleteEm.TabIndex = 34;
@@ -498,7 +498,7 @@
             // txtEmployeeAddress
             // 
             this.txtEmployeeAddress.Location = new System.Drawing.Point(107, 177);
-            this.txtEmployeeAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmployeeAddress.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmployeeAddress.Name = "txtEmployeeAddress";
             this.txtEmployeeAddress.Size = new System.Drawing.Size(132, 22);
             this.txtEmployeeAddress.TabIndex = 33;
@@ -516,7 +516,7 @@
             // txtMjobDespription
             // 
             this.txtMjobDespription.Location = new System.Drawing.Point(484, 84);
-            this.txtMjobDespription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMjobDespription.Margin = new System.Windows.Forms.Padding(4);
             this.txtMjobDespription.Name = "txtMjobDespription";
             this.txtMjobDespription.Size = new System.Drawing.Size(132, 22);
             this.txtMjobDespription.TabIndex = 28;
@@ -524,7 +524,7 @@
             // txtMjobtitle
             // 
             this.txtMjobtitle.Location = new System.Drawing.Point(448, 42);
-            this.txtMjobtitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMjobtitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtMjobtitle.Name = "txtMjobtitle";
             this.txtMjobtitle.Size = new System.Drawing.Size(132, 22);
             this.txtMjobtitle.TabIndex = 27;
@@ -532,7 +532,7 @@
             // txtContactDetails
             // 
             this.txtContactDetails.Location = new System.Drawing.Point(140, 224);
-            this.txtContactDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContactDetails.Margin = new System.Windows.Forms.Padding(4);
             this.txtContactDetails.Name = "txtContactDetails";
             this.txtContactDetails.Size = new System.Drawing.Size(132, 22);
             this.txtContactDetails.TabIndex = 26;
@@ -540,7 +540,7 @@
             // txtEmployeesurname
             // 
             this.txtEmployeesurname.Location = new System.Drawing.Point(107, 132);
-            this.txtEmployeesurname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmployeesurname.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmployeesurname.Name = "txtEmployeesurname";
             this.txtEmployeesurname.Size = new System.Drawing.Size(132, 22);
             this.txtEmployeesurname.TabIndex = 25;
@@ -548,7 +548,7 @@
             // txtEmployeename
             // 
             this.txtEmployeename.Location = new System.Drawing.Point(107, 79);
-            this.txtEmployeename.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmployeename.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmployeename.Name = "txtEmployeename";
             this.txtEmployeename.Size = new System.Drawing.Size(132, 22);
             this.txtEmployeename.TabIndex = 24;
@@ -556,7 +556,7 @@
             // txtEmployeeId
             // 
             this.txtEmployeeId.Location = new System.Drawing.Point(107, 38);
-            this.txtEmployeeId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmployeeId.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmployeeId.Name = "txtEmployeeId";
             this.txtEmployeeId.Size = new System.Drawing.Size(132, 22);
             this.txtEmployeeId.TabIndex = 23;
@@ -585,7 +585,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Desktop;
             this.button1.Location = new System.Drawing.Point(345, 380);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 21;
@@ -616,7 +616,7 @@
             // 
             this.UpdateEm.BackColor = System.Drawing.SystemColors.Desktop;
             this.UpdateEm.Location = new System.Drawing.Point(13, 265);
-            this.UpdateEm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UpdateEm.Margin = new System.Windows.Forms.Padding(4);
             this.UpdateEm.Name = "UpdateEm";
             this.UpdateEm.Size = new System.Drawing.Size(119, 39);
             this.UpdateEm.TabIndex = 20;
@@ -638,7 +638,7 @@
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Desktop;
             this.button3.Location = new System.Drawing.Point(35, 380);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 19;
@@ -669,9 +669,9 @@
             this.groupBox4.Controls.Add(this.txtidDepartment);
             this.groupBox4.ForeColor = System.Drawing.Color.Fuchsia;
             this.groupBox4.Location = new System.Drawing.Point(741, 356);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(595, 308);
             this.groupBox4.TabIndex = 28;
             this.groupBox4.TabStop = false;
@@ -681,7 +681,7 @@
             // 
             this.DeleteDp.BackColor = System.Drawing.SystemColors.Desktop;
             this.DeleteDp.Location = new System.Drawing.Point(180, 265);
-            this.DeleteDp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteDp.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteDp.Name = "DeleteDp";
             this.DeleteDp.Size = new System.Drawing.Size(123, 39);
             this.DeleteDp.TabIndex = 35;
@@ -693,7 +693,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Desktop;
             this.button2.Location = new System.Drawing.Point(180, 380);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 34;
@@ -704,7 +704,7 @@
             // 
             this.button4.BackColor = System.Drawing.SystemColors.Desktop;
             this.button4.Location = new System.Drawing.Point(25, 380);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
             this.button4.TabIndex = 33;
@@ -715,7 +715,7 @@
             // 
             this.UpdateDp.BackColor = System.Drawing.SystemColors.Desktop;
             this.UpdateDp.Location = new System.Drawing.Point(16, 265);
-            this.UpdateDp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UpdateDp.Margin = new System.Windows.Forms.Padding(4);
             this.UpdateDp.Name = "UpdateDp";
             this.UpdateDp.Size = new System.Drawing.Size(132, 39);
             this.UpdateDp.TabIndex = 32;
@@ -746,7 +746,7 @@
             // txtSationNo
             // 
             this.txtSationNo.Location = new System.Drawing.Point(8, 219);
-            this.txtSationNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSationNo.Margin = new System.Windows.Forms.Padding(4);
             this.txtSationNo.Name = "txtSationNo";
             this.txtSationNo.Size = new System.Drawing.Size(213, 22);
             this.txtSationNo.TabIndex = 31;
@@ -764,7 +764,7 @@
             // txtNameDepartment
             // 
             this.txtNameDepartment.Location = new System.Drawing.Point(8, 137);
-            this.txtNameDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNameDepartment.Margin = new System.Windows.Forms.Padding(4);
             this.txtNameDepartment.Name = "txtNameDepartment";
             this.txtNameDepartment.Size = new System.Drawing.Size(213, 22);
             this.txtNameDepartment.TabIndex = 30;
@@ -772,7 +772,7 @@
             // txtidDepartment
             // 
             this.txtidDepartment.Location = new System.Drawing.Point(8, 76);
-            this.txtidDepartment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtidDepartment.Margin = new System.Windows.Forms.Padding(4);
             this.txtidDepartment.Name = "txtidDepartment";
             this.txtidDepartment.Size = new System.Drawing.Size(213, 22);
             this.txtidDepartment.TabIndex = 29;
@@ -782,7 +782,7 @@
             this.MainMenu.BackColor = System.Drawing.SystemColors.Desktop;
             this.MainMenu.ForeColor = System.Drawing.Color.Fuchsia;
             this.MainMenu.Location = new System.Drawing.Point(0, 665);
-            this.MainMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MainMenu.Margin = new System.Windows.Forms.Padding(4);
             this.MainMenu.Name = "MainMenu";
             this.MainMenu.Size = new System.Drawing.Size(129, 39);
             this.MainMenu.TabIndex = 29;
@@ -795,7 +795,7 @@
             this.Exit.BackColor = System.Drawing.SystemColors.Desktop;
             this.Exit.ForeColor = System.Drawing.Color.Fuchsia;
             this.Exit.Location = new System.Drawing.Point(1228, 665);
-            this.Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Exit.Margin = new System.Windows.Forms.Padding(4);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(116, 39);
             this.Exit.TabIndex = 30;
@@ -808,7 +808,7 @@
             this.Employee.BackColor = System.Drawing.SystemColors.Desktop;
             this.Employee.ForeColor = System.Drawing.Color.Fuchsia;
             this.Employee.Location = new System.Drawing.Point(156, 665);
-            this.Employee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Employee.Margin = new System.Windows.Forms.Padding(4);
             this.Employee.Name = "Employee";
             this.Employee.Size = new System.Drawing.Size(133, 39);
             this.Employee.TabIndex = 31;
@@ -827,6 +827,7 @@
             this.btnNextForm.TabIndex = 32;
             this.btnNextForm.Text = "NEXT FORM";
             this.btnNextForm.UseVisualStyleBackColor = false;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // Form5
             // 
@@ -844,7 +845,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form5";
             this.Text = "Form5";
             this.panel1.ResumeLayout(false);
