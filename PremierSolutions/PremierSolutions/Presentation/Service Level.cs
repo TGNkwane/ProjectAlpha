@@ -10,18 +10,12 @@ using System.Windows.Forms;
 
 namespace PremierSolutions
 {
-    public partial class Service : Form
+    public partial class Service_Level : Form
     {
-        public Service()
+        public Service_Level()
         {
             InitializeComponent();
         }
 
-        private void btnNextForm_Click(object sender, EventArgs e)
-        {
-            Service_Level service_Level = new Service_Level();
-            this.Hide();
-            service_Level.Show();
-        }
     }
 }
