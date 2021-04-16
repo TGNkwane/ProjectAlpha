@@ -17,3 +17,4 @@ C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Form5.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Form2.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Individual_Client_Info.resources
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.frmIncident.resources
