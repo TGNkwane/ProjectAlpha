@@ -16,5 +16,12 @@ namespace PremierSolutions
         {
             InitializeComponent();
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Form5 manager = new Form5();
+            this.Hide();
+            manager.Show();
+        }
     }
 }

@@ -227,6 +227,7 @@ namespace PremierSolutions
             this.btnNextForm.TabIndex = 62;
             this.btnNextForm.Text = "NEXT FORM";
             this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // Package
             // 
