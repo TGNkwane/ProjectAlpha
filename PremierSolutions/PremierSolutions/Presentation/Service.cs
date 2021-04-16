@@ -10,18 +10,12 @@ using System.Windows.Forms;
 
 namespace PremierSolutions
 {
-    public partial class frmServiceRequest : Form
+    public partial class Service : Form
     {
-        public frmServiceRequest()
+        public Service()
         {
             InitializeComponent();
         }
 
-        private void btnNextForm_Click(object sender, EventArgs e)
-        {
-            Service service = new Service();
-            this.Hide();
-            service.Show();
-        }
     }
 }

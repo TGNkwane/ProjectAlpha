@@ -10,3 +10,4 @@ C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Form1.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Form3.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.frmServiceRequest.resources
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Service.resources
