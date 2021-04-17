@@ -78,7 +78,7 @@
             // rtbReportInfo
             // 
             this.rtbReportInfo.Location = new System.Drawing.Point(199, 101);
-            this.rtbReportInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbReportInfo.Margin = new System.Windows.Forms.Padding(4);
             this.rtbReportInfo.Name = "rtbReportInfo";
             this.rtbReportInfo.Size = new System.Drawing.Size(813, 195);
             this.rtbReportInfo.TabIndex = 2;
@@ -98,7 +98,7 @@
             // dtpDateIssued
             // 
             this.dtpDateIssued.Location = new System.Drawing.Point(199, 316);
-            this.dtpDateIssued.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDateIssued.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDateIssued.Name = "dtpDateIssued";
             this.dtpDateIssued.Size = new System.Drawing.Size(265, 22);
             this.dtpDateIssued.TabIndex = 4;
@@ -117,7 +117,7 @@
             // txtCost
             // 
             this.txtCost.Location = new System.Drawing.Point(199, 364);
-            this.txtCost.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCost.Margin = new System.Windows.Forms.Padding(4);
             this.txtCost.Name = "txtCost";
             this.txtCost.Size = new System.Drawing.Size(265, 22);
             this.txtCost.TabIndex = 6;
@@ -140,7 +140,7 @@
             "1",
             "2"});
             this.cbxPriority.Location = new System.Drawing.Point(199, 396);
-            this.cbxPriority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbxPriority.Margin = new System.Windows.Forms.Padding(4);
             this.cbxPriority.Name = "cbxPriority";
             this.cbxPriority.Size = new System.Drawing.Size(265, 24);
             this.cbxPriority.TabIndex = 8;
@@ -152,9 +152,9 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Location = new System.Drawing.Point(199, 448);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(177, 146);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
@@ -164,7 +164,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(8, 108);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(60, 21);
             this.radioButton4.TabIndex = 3;
@@ -176,7 +176,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(8, 80);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(60, 21);
             this.radioButton3.TabIndex = 2;
@@ -188,7 +188,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(8, 52);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(60, 21);
             this.radioButton2.TabIndex = 1;
@@ -200,7 +200,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(8, 23);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(60, 21);
             this.radioButton1.TabIndex = 0;
@@ -222,7 +222,7 @@
             // txtClientID
             // 
             this.txtClientID.Location = new System.Drawing.Point(199, 619);
-            this.txtClientID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtClientID.Margin = new System.Windows.Forms.Padding(4);
             this.txtClientID.Name = "txtClientID";
             this.txtClientID.Size = new System.Drawing.Size(265, 22);
             this.txtClientID.TabIndex = 12;
@@ -241,7 +241,7 @@
             // txtCallerID
             // 
             this.txtCallerID.Location = new System.Drawing.Point(199, 651);
-            this.txtCallerID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCallerID.Margin = new System.Windows.Forms.Padding(4);
             this.txtCallerID.Name = "txtCallerID";
             this.txtCallerID.Size = new System.Drawing.Size(265, 22);
             this.txtCallerID.TabIndex = 14;
@@ -260,7 +260,7 @@
             // btnCreateIncident
             // 
             this.btnCreateIncident.Location = new System.Drawing.Point(199, 686);
-            this.btnCreateIncident.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCreateIncident.Margin = new System.Windows.Forms.Padding(4);
             this.btnCreateIncident.Name = "btnCreateIncident";
             this.btnCreateIncident.Size = new System.Drawing.Size(267, 33);
             this.btnCreateIncident.TabIndex = 15;
@@ -275,6 +275,7 @@
             this.btnNextForm.TabIndex = 16;
             this.btnNextForm.Text = "NEXT FORM";
             this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // frmIncident
             // 
@@ -299,7 +300,7 @@
             this.Controls.Add(this.rtbReportInfo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeading);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmIncident";
             this.Text = "Incident";
             this.groupBox1.ResumeLayout(false);

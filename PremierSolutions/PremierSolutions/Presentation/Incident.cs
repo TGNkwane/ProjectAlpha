@@ -21,5 +21,12 @@ namespace PremierSolutions
         {
 
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Form4 followUp = new Form4();
+            this.Hide();
+            followUp.Show();
+        }
     }
 }
