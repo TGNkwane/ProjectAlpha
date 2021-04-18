@@ -77,6 +77,11 @@ namespace PremierSolutions
             //handler.InsertFeedback(int.Parse(txtfeedbackid.Text), txtproblem.Text, txthelpedontime.Text, txtcomment.Text, DateTime.Parse(txtfeedbackD.Text));
         }
 
-       
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Employee employee = new Employee();
+            this.Hide();
+            employee.Show();
+        }
     }
 }
