@@ -56,7 +56,7 @@
             // 
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Location = new System.Drawing.Point(5, 81);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(740, 409);
             this.panel1.TabIndex = 0;
@@ -65,7 +65,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-5, 4);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(741, 401);
@@ -85,9 +85,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.ForeColor = System.Drawing.Color.Fuchsia;
             this.groupBox1.Location = new System.Drawing.Point(743, 71);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(324, 418);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -96,7 +96,7 @@
             // txthelpedontime
             // 
             this.txthelpedontime.Location = new System.Drawing.Point(16, 209);
-            this.txthelpedontime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txthelpedontime.Margin = new System.Windows.Forms.Padding(4);
             this.txthelpedontime.Name = "txthelpedontime";
             this.txthelpedontime.Size = new System.Drawing.Size(132, 22);
             this.txthelpedontime.TabIndex = 10;
@@ -104,7 +104,7 @@
             // txtfeedbackid
             // 
             this.txtfeedbackid.Location = new System.Drawing.Point(16, 63);
-            this.txtfeedbackid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtfeedbackid.Margin = new System.Windows.Forms.Padding(4);
             this.txtfeedbackid.Name = "txtfeedbackid";
             this.txtfeedbackid.Size = new System.Drawing.Size(132, 22);
             this.txtfeedbackid.TabIndex = 9;
@@ -112,7 +112,7 @@
             // txtproblem
             // 
             this.txtproblem.Location = new System.Drawing.Point(16, 128);
-            this.txtproblem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtproblem.Margin = new System.Windows.Forms.Padding(4);
             this.txtproblem.Name = "txtproblem";
             this.txtproblem.Size = new System.Drawing.Size(132, 22);
             this.txtproblem.TabIndex = 8;
@@ -120,7 +120,7 @@
             // txtcomment
             // 
             this.txtcomment.Location = new System.Drawing.Point(16, 274);
-            this.txtcomment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcomment.Margin = new System.Windows.Forms.Padding(4);
             this.txtcomment.Name = "txtcomment";
             this.txtcomment.Size = new System.Drawing.Size(132, 22);
             this.txtcomment.TabIndex = 6;
@@ -128,7 +128,7 @@
             // txtfeedbackD
             // 
             this.txtfeedbackD.Location = new System.Drawing.Point(16, 334);
-            this.txtfeedbackD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtfeedbackD.Margin = new System.Windows.Forms.Padding(4);
             this.txtfeedbackD.Name = "txtfeedbackD";
             this.txtfeedbackD.Size = new System.Drawing.Size(132, 22);
             this.txtfeedbackD.TabIndex = 5;
@@ -187,7 +187,7 @@
             // 
             this.Menu.BackColor = System.Drawing.SystemColors.Desktop;
             this.Menu.Location = new System.Drawing.Point(5, 497);
-            this.Menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Menu.Margin = new System.Windows.Forms.Padding(4);
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(159, 54);
             this.Menu.TabIndex = 2;
@@ -199,7 +199,7 @@
             // 
             this.FollowUp.BackColor = System.Drawing.SystemColors.Desktop;
             this.FollowUp.Location = new System.Drawing.Point(201, 497);
-            this.FollowUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FollowUp.Margin = new System.Windows.Forms.Padding(4);
             this.FollowUp.Name = "FollowUp";
             this.FollowUp.Size = new System.Drawing.Size(164, 54);
             this.FollowUp.TabIndex = 7;
@@ -210,7 +210,7 @@
             // 
             this.Exit.BackColor = System.Drawing.SystemColors.Desktop;
             this.Exit.Location = new System.Drawing.Point(893, 497);
-            this.Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Exit.Margin = new System.Windows.Forms.Padding(4);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(173, 54);
             this.Exit.TabIndex = 8;
@@ -233,7 +233,7 @@
             // 
             this.Insert.BackColor = System.Drawing.SystemColors.Desktop;
             this.Insert.Location = new System.Drawing.Point(415, 497);
-            this.Insert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Insert.Margin = new System.Windows.Forms.Padding(4);
             this.Insert.Name = "Insert";
             this.Insert.Size = new System.Drawing.Size(164, 54);
             this.Insert.TabIndex = 10;
@@ -249,6 +249,7 @@
             this.btnNextForm.TabIndex = 11;
             this.btnNextForm.Text = "NEXT FORM";
             this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // Feedback
             // 
@@ -266,7 +267,7 @@
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Fuchsia;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Feedback";
             this.Text = "Feedback";
             this.Load += new System.EventHandler(this.Form5_Load);
