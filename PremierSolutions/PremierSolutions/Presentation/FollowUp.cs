@@ -63,8 +63,9 @@ namespace PremierSolutions
 
         private void Feedback_Click(object sender, EventArgs e)
         {
-            //Feedback Feedback = new Feedback();
-            //Feedback.Show();
+            Feedback Feedback = new Feedback();
+            Feedback.Show();
+            this.Hide();
 
         }
 
@@ -88,5 +89,11 @@ namespace PremierSolutions
             //handler.DeleteFollowUp(int.Parse(txtfollowupid.Text), txtstatus.Text, DateTime.Parse(txtfollupD.Text));
         }
 
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Feedback Feedback = new Feedback();
+            Feedback.Show();
+            this.Hide();
+        }
     }
 }
