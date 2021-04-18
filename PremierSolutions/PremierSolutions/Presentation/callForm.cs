@@ -104,5 +104,12 @@ namespace PremierSolutions
             colorTextbox();
             colorReportRichTextBoxs();
         }
+
+        private void btnNextForm_Click(object sender, EventArgs e)
+        {
+            Business_Client_Info busClient = new Business_Client_Info();
+            this.Hide();
+            busClient.Show();
+        }
     }
 }
