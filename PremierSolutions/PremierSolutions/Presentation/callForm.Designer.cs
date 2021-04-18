@@ -86,7 +86,7 @@ namespace PremierSolutions
             // 
             this.rtbFaultReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.rtbFaultReport.Location = new System.Drawing.Point(25, 165);
-            this.rtbFaultReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbFaultReport.Margin = new System.Windows.Forms.Padding(4);
             this.rtbFaultReport.Name = "rtbFaultReport";
             this.rtbFaultReport.Size = new System.Drawing.Size(255, 190);
             this.rtbFaultReport.TabIndex = 6;
@@ -140,7 +140,7 @@ namespace PremierSolutions
             // 
             this.rtbCallReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.rtbCallReport.Location = new System.Drawing.Point(335, 165);
-            this.rtbCallReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbCallReport.Margin = new System.Windows.Forms.Padding(4);
             this.rtbCallReport.Name = "rtbCallReport";
             this.rtbCallReport.Size = new System.Drawing.Size(255, 190);
             this.rtbCallReport.TabIndex = 11;
@@ -150,7 +150,7 @@ namespace PremierSolutions
             // 
             this.rtbProblemInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.rtbProblemInfo.Location = new System.Drawing.Point(640, 165);
-            this.rtbProblemInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbProblemInfo.Margin = new System.Windows.Forms.Padding(4);
             this.rtbProblemInfo.Name = "rtbProblemInfo";
             this.rtbProblemInfo.Size = new System.Drawing.Size(255, 190);
             this.rtbProblemInfo.TabIndex = 12;
@@ -160,7 +160,7 @@ namespace PremierSolutions
             // 
             this.rtbWorkRequest.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.rtbWorkRequest.Location = new System.Drawing.Point(937, 165);
-            this.rtbWorkRequest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rtbWorkRequest.Margin = new System.Windows.Forms.Padding(4);
             this.rtbWorkRequest.Name = "rtbWorkRequest";
             this.rtbWorkRequest.Size = new System.Drawing.Size(255, 190);
             this.rtbWorkRequest.TabIndex = 13;
@@ -173,7 +173,7 @@ namespace PremierSolutions
             this.pnlTitleBar.Controls.Add(this.lblTitle);
             this.pnlTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitleBar.Location = new System.Drawing.Point(0, 0);
-            this.pnlTitleBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlTitleBar.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTitleBar.Name = "pnlTitleBar";
             this.pnlTitleBar.Size = new System.Drawing.Size(1804, 89);
             this.pnlTitleBar.TabIndex = 15;
@@ -185,7 +185,7 @@ namespace PremierSolutions
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.ForeColor = System.Drawing.Color.BlueViolet;
             this.btnHome.Location = new System.Drawing.Point(1641, 15);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(100, 52);
             this.btnHome.TabIndex = 5;
@@ -205,7 +205,7 @@ namespace PremierSolutions
             this.pnlReports.Controls.Add(this.rtbCallReport);
             this.pnlReports.Controls.Add(this.lblWorkRequest);
             this.pnlReports.Location = new System.Drawing.Point(200, 111);
-            this.pnlReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlReports.Margin = new System.Windows.Forms.Padding(4);
             this.pnlReports.Name = "pnlReports";
             this.pnlReports.Size = new System.Drawing.Size(1233, 391);
             this.pnlReports.TabIndex = 16;
@@ -234,7 +234,7 @@ namespace PremierSolutions
             this.pnlClientInfo.Controls.Add(this.dataGridView1);
             this.pnlClientInfo.Controls.Add(this.lblClientInfo);
             this.pnlClientInfo.Location = new System.Drawing.Point(200, 535);
-            this.pnlClientInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlClientInfo.Margin = new System.Windows.Forms.Padding(4);
             this.pnlClientInfo.Name = "pnlClientInfo";
             this.pnlClientInfo.Size = new System.Drawing.Size(1233, 447);
             this.pnlClientInfo.TabIndex = 17;
@@ -255,7 +255,7 @@ namespace PremierSolutions
             this.btnFindClientInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFindClientInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
             this.btnFindClientInfo.Location = new System.Drawing.Point(1060, 17);
-            this.btnFindClientInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFindClientInfo.Margin = new System.Windows.Forms.Padding(4);
             this.btnFindClientInfo.Name = "btnFindClientInfo";
             this.btnFindClientInfo.Size = new System.Drawing.Size(155, 64);
             this.btnFindClientInfo.TabIndex = 24;
@@ -266,7 +266,7 @@ namespace PremierSolutions
             // 
             this.txtClientInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClientInfo.Location = new System.Drawing.Point(915, 39);
-            this.txtClientInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtClientInfo.Margin = new System.Windows.Forms.Padding(4);
             this.txtClientInfo.Name = "txtClientInfo";
             this.txtClientInfo.Size = new System.Drawing.Size(136, 29);
             this.txtClientInfo.TabIndex = 23;
@@ -286,7 +286,7 @@ namespace PremierSolutions
             // 
             this.dgvCallHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCallHistory.Location = new System.Drawing.Point(39, 182);
-            this.dgvCallHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvCallHistory.Margin = new System.Windows.Forms.Padding(4);
             this.dgvCallHistory.Name = "dgvCallHistory";
             this.dgvCallHistory.RowHeadersWidth = 51;
             this.dgvCallHistory.Size = new System.Drawing.Size(399, 230);
@@ -307,7 +307,7 @@ namespace PremierSolutions
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(467, 182);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(727, 230);
@@ -335,7 +335,7 @@ namespace PremierSolutions
             this.pnlRightSide.Controls.Add(this.btnTakeCall);
             this.pnlRightSide.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlRightSide.Location = new System.Drawing.Point(1555, 89);
-            this.pnlRightSide.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlRightSide.Margin = new System.Windows.Forms.Padding(4);
             this.pnlRightSide.Name = "pnlRightSide";
             this.pnlRightSide.Size = new System.Drawing.Size(249, 917);
             this.pnlRightSide.TabIndex = 18;
@@ -348,7 +348,7 @@ namespace PremierSolutions
             this.btnEndCall.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEndCall.ForeColor = System.Drawing.Color.Red;
             this.btnEndCall.Location = new System.Drawing.Point(0, 222);
-            this.btnEndCall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEndCall.Margin = new System.Windows.Forms.Padding(4);
             this.btnEndCall.Name = "btnEndCall";
             this.btnEndCall.Size = new System.Drawing.Size(249, 111);
             this.btnEndCall.TabIndex = 1;
@@ -363,7 +363,7 @@ namespace PremierSolutions
             this.pnlRightBottom.Controls.Add(this.btnInsertIntoDB);
             this.pnlRightBottom.Controls.Add(this.btnGenerateReports);
             this.pnlRightBottom.Location = new System.Drawing.Point(23, 576);
-            this.pnlRightBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlRightBottom.Margin = new System.Windows.Forms.Padding(4);
             this.pnlRightBottom.Name = "pnlRightBottom";
             this.pnlRightBottom.Size = new System.Drawing.Size(211, 326);
             this.pnlRightBottom.TabIndex = 5;
@@ -376,7 +376,7 @@ namespace PremierSolutions
             this.btnInsertIntoDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertIntoDB.ForeColor = System.Drawing.Color.BlueViolet;
             this.btnInsertIntoDB.Location = new System.Drawing.Point(0, 143);
-            this.btnInsertIntoDB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInsertIntoDB.Margin = new System.Windows.Forms.Padding(4);
             this.btnInsertIntoDB.Name = "btnInsertIntoDB";
             this.btnInsertIntoDB.Size = new System.Drawing.Size(211, 180);
             this.btnInsertIntoDB.TabIndex = 4;
@@ -392,7 +392,7 @@ namespace PremierSolutions
             this.btnGenerateReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerateReports.ForeColor = System.Drawing.Color.BlueViolet;
             this.btnGenerateReports.Location = new System.Drawing.Point(0, 0);
-            this.btnGenerateReports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGenerateReports.Margin = new System.Windows.Forms.Padding(4);
             this.btnGenerateReports.Name = "btnGenerateReports";
             this.btnGenerateReports.Size = new System.Drawing.Size(211, 143);
             this.btnGenerateReports.TabIndex = 3;
@@ -408,7 +408,7 @@ namespace PremierSolutions
             this.btnMakeCall.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMakeCall.ForeColor = System.Drawing.Color.Chartreuse;
             this.btnMakeCall.Location = new System.Drawing.Point(0, 111);
-            this.btnMakeCall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMakeCall.Margin = new System.Windows.Forms.Padding(4);
             this.btnMakeCall.Name = "btnMakeCall";
             this.btnMakeCall.Size = new System.Drawing.Size(249, 111);
             this.btnMakeCall.TabIndex = 2;
@@ -424,7 +424,7 @@ namespace PremierSolutions
             this.btnTakeCall.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTakeCall.ForeColor = System.Drawing.Color.Chartreuse;
             this.btnTakeCall.Location = new System.Drawing.Point(0, 0);
-            this.btnTakeCall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTakeCall.Margin = new System.Windows.Forms.Padding(4);
             this.btnTakeCall.Name = "btnTakeCall";
             this.btnTakeCall.Size = new System.Drawing.Size(249, 111);
             this.btnTakeCall.TabIndex = 0;
@@ -440,6 +440,7 @@ namespace PremierSolutions
             this.btnNextForm.TabIndex = 19;
             this.btnNextForm.Text = "NEXT FROM";
             this.btnNextForm.UseVisualStyleBackColor = true;
+            this.btnNextForm.Click += new System.EventHandler(this.btnNextForm_Click);
             // 
             // callForm
             // 
@@ -452,7 +453,7 @@ namespace PremierSolutions
             this.Controls.Add(this.pnlClientInfo);
             this.Controls.Add(this.pnlReports);
             this.Controls.Add(this.pnlTitleBar);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "callForm";
             this.Text = "call";
             this.Load += new System.EventHandler(this.call_Load);
