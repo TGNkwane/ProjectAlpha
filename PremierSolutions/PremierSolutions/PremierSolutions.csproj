@@ -46,6 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BussinesLogic\BusinessClient.cs" />
+    <Compile Include="BussinesLogic\Call.cs" />
+    <Compile Include="BussinesLogic\Caller.cs" />
+    <Compile Include="BussinesLogic\CallStats.cs" />
+    <Compile Include="BussinesLogic\ClientFactory.cs" />
+    <Compile Include="BussinesLogic\ClientInfo.cs" />
+    <Compile Include="BussinesLogic\Contract.cs" />
+    <Compile Include="BussinesLogic\Employee.cs" />
+    <Compile Include="BussinesLogic\FaultInfo.cs" />
+    <Compile Include="BussinesLogic\FollowUp.cs" />
+    <Compile Include="BussinesLogic\IClient.cs" />
+    <Compile Include="BussinesLogic\Incident.cs" />
+    <Compile Include="BussinesLogic\IndividualClient.cs" />
+    <Compile Include="BussinesLogic\Job.cs" />
+    <Compile Include="BussinesLogic\Manager.cs" />
+    <Compile Include="BussinesLogic\Package.cs" />
+    <Compile Include="BussinesLogic\SecurityLevel.cs" />
+    <Compile Include="BussinesLogic\Service.cs" />
+    <Compile Include="BussinesLogic\ServiceLevel.cs" />
+    <Compile Include="BussinesLogic\ServiceRequest.cs" />
+    <Compile Include="BussinesLogic\Technicians.cs" />
+    <Compile Include="DataAccess\callDataAccess.cs" />
+    <Compile Include="DataAccess\ClientDataAccess.cs" />
+    <Compile Include="DataAccess\ContractMaintenanceAccess.cs" />
+    <Compile Include="DataAccess\Employee_DataAccess.cs" />
+    <Compile Include="DataAccess\FollowUp_DataAccess.cs" />
+    <Compile Include="DataAccess\IncidentDataAccess.cs" />
+    <Compile Include="DataAccess\JobDataAccess.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,9 +261,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BussinesLogic\" />
-    <Folder Include="DataAccess\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
