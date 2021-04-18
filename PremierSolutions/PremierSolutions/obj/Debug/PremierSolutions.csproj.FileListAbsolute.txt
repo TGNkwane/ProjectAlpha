@@ -21,3 +21,4 @@ C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Form4.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Feedback.resources
 C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Employee.resources
+C:\Users\Tebogo\Desktop\ProjectAlpha\PremierSolutions\PremierSolutions\obj\Debug\PremierSolutions.Contract.resources
