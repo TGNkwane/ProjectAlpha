@@ -15,6 +15,7 @@ namespace PremierSolutions.DataAccess
         SqlConnection conn;
         SqlCommand command;
         SqlDataReader reader;
+        // MessageBox.Show() overload number 7 yto be used for all MessageBoxes
 
         #region Insert Functions
         // Insert functions: These functions are used to add services, service levels (including security levels),
@@ -23,22 +24,20 @@ namespace PremierSolutions.DataAccess
         // Only the manager can use this method (or anyone with clearance to create services)
         public void InsertService(string name, string equipmentType, string workExpenses, int state)
         {
-            string query = $"INSERT INTO Service VALUES({name}, {equipmentType}, {workExpenses},{state})";
-            conn = new SqlConnection(connect);
+            string query = $"INSERT INTO [Service] VALUES('{name}', '{equipmentType}', '{workExpenses}', {state})";
 
-            conn.Open();
-
-            command = new SqlCommand(query, conn);
+            SqlConnection conn = new SqlConnection(connect);
+            SqlCommand command = new SqlCommand(query, conn);
 
             try
             {
+                conn.Open();
                 command.ExecuteNonQuery();
-                // MessageBox.Show() overload number 7
-                MessageBox.Show("New service inserted succesfully", "Service Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
+                MessageBox.Show($"New service: {name} inserted succesfully", "Service Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                // MessageBox.Show() overload number 7
                 MessageBox.Show("Failed to insert new Service: " + ex.Message, "Insert Failed", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             finally
@@ -49,23 +48,19 @@ namespace PremierSolutions.DataAccess
         // Only the manager can use this method (or anyone with clearance to create service levels)
         public void InsertServiceLevel(string levelName, string optOutDetails, double penaltiesForLateWork, double penaltiesForNonPerformance, int state, int securityLevelID)
         {
-            string query = $"INSERT INTO ServiceLevel VALUES({levelName}, {optOutDetails}, {penaltiesForLateWork},{penaltiesForNonPerformance},{state},{securityLevelID})";
+            string query = $"INSERT INTO ServiceLevel VALUES('{levelName}', '{optOutDetails}', {penaltiesForLateWork},{penaltiesForNonPerformance},{state},{securityLevelID})";
 
-            conn = new SqlConnection(connect);
-
-            conn.Open();
-
-            command = new SqlCommand(query, conn);
+            SqlConnection conn = new SqlConnection(connect);
+            SqlCommand command = new SqlCommand(query, conn);
 
             try
             {
+                conn.Open();
                 command.ExecuteNonQuery();
-                // MessageBox.Show() overload number 7
-                MessageBox.Show("New service level inserted succesfully", "Service Level Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"New service: {levelName} level inserted succesfully", "Service Level Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                // MessageBox.Show() overload number 7
                 MessageBox.Show("Failed to insert new Service Level: " + ex.Message, "Insert Failed", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             finally
@@ -81,18 +76,15 @@ namespace PremierSolutions.DataAccess
             SqlConnection conn = new SqlConnection(connect);
             SqlCommand command = new SqlCommand(query, conn);
 
-
             try
             {
                 conn.Open();
                 command.ExecuteNonQuery();
-                //MessageBox.Show("New package inserted succesfully", "Package Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Console.WriteLine("New package inserted succesfully");
+                MessageBox.Show($"New package: {packageName} inserted succesfully", "Package Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                //MessageBox.Show("Failed to insert new Package: " + ex.Message, "Insert Failed", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-                Console.WriteLine("Failed to insert new Package");
+                MessageBox.Show("Failed to insert new Package: " + ex.Message, "Insert Failed", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             finally
             {
@@ -105,16 +97,14 @@ namespace PremierSolutions.DataAccess
         {
             string query = $"INSERT INTO Contract VALUES({contractTypeID}, {clientID})";
 
-            conn = new SqlConnection(connect);
-
-            conn.Open();
-
-            command = new SqlCommand(query, conn);
+            SqlConnection conn = new SqlConnection(connect);
+            SqlCommand command = new SqlCommand(query, conn);
 
             try
             {
+                conn.Open();
                 command.ExecuteNonQuery();
-                MessageBox.Show("New contract inserted succesfully", "Contract Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"New contract with client: {clientID} inserted succesfully", "Contract Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -128,16 +118,14 @@ namespace PremierSolutions.DataAccess
         // The manager can use this method (or anyone with clearance to create security levels)
         public void InsertSecuriyLevel(string levelDescription, int availability, string emailSupport, string phoneSupport)
         {
-            string query = $"INSERT INTO SecurityLevel VALUES({levelDescription}, {availability}, {emailSupport},{phoneSupport})";
+            string query = $"INSERT INTO SecurityLevel VALUES('{levelDescription}', {availability}, '{emailSupport}','{phoneSupport}')";
 
-            conn = new SqlConnection(connect);
-
-            conn.Open();
-
-            command = new SqlCommand(query, conn);
+            SqlConnection conn = new SqlConnection(connect);
+            SqlCommand command = new SqlCommand(query, conn);
 
             try
             {
+                conn.Open();
                 command.ExecuteNonQuery();
                 MessageBox.Show("New security level inserted succesfully", "Security Level Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
