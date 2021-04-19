@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using PremierSolutions.BussinesLogic;
 
-namespace PremierSolutions
+namespace PremierSolutions.DataAccess
 {
     class Employee_DataAccess
     {
